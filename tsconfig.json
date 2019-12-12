@@ -1,0 +1,30 @@
+{
+	"compilerOptions": {
+		"lib": ["esnext", "es6", "dom"],
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"declaration": false,
+		"noImplicitAny": true,
+		"removeComments": true,
+		"noLib": false,
+		"skipLibCheck": true,
+		"strictNullChecks": true,
+		"allowSyntheticDefaultImports": true,
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"strictFunctionTypes": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"target": "es2018",
+		"sourceMap": true,
+		"outDir": "./dist",
+		"baseUrl": "./src",
+		"strict": true,
+		"alwaysStrict": true,
+		"paths": {
+			"~/*": ["*"]
+		},
+		"typeRoots": ["./node_modules/@types"]
+	},
+	"exclude": ["node_modules", "dist"]
+}
