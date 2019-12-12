@@ -76,33 +76,33 @@ The structure of `POST` body:
 
 ```ts
  type MoviePOST {
-			title!: string
-			year?: number
-			rated?: string
-			released?: string
-			runtime?: string
-			genre?: string
-			director?: string
-			writer?: string
-			actors?: string
-			plot?: string
-			language?: string
-			country?: string
-			awards?: string
-			poster?: string
-			ratings?: Array<{
+	title!: string
+	year?: number
+	rated?: string
+	released?: string
+	runtime?: string
+	genre?: string
+	director?: string
+	writer?: string
+	actors?: string
+	plot?: string
+	language?: string
+	country?: string
+	awards?: string
+	poster?: string
+	ratings?: Array<{
                 value!: string
                 source!: string
             }>
-			metascore?: number
-			imdbRating?: number
-			imdbVotes?: string
-            type?: 'movie' | 'series' | 'episode'
-            dvd?: string
-            boxOffice?: string
-            production?: string
-            website?: string
-            response?: string
+	metascore?: number
+	imdbRating?: number
+	imdbVotes?: string
+	type?: 'movie' | 'series' | 'episode'
+	dvd?: string
+	boxOffice?: string
+	production?: string
+	website?: string
+	response?: string
 }
 ```
 
